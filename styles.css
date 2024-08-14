@@ -1,0 +1,36 @@
+.hero {
+    background: url('imgs/hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero h1 {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background-color: rgba(0, 128, 0, 0.8);
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+}
+.feature-icon {
+    width: 64px;
+    height: 64px;
+}
+.recent-work img, .blog-post img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
